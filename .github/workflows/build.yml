@@ -30,7 +30,8 @@ jobs:
         arch:
           - aarch64_generic
         sdk:
-          - 18.06-k5.4-SNAPSHOT
+          - 18.06
+          - SNAPSHOT
     steps:
       - uses: actions/checkout@v6
         with:
